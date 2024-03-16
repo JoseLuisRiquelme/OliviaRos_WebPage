@@ -6,7 +6,105 @@
     <title>Olivia Ros</title>
     <link rel="stylesheet" href="./css/custom.css">
 </head>
-<body>
-    
+<body >
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid bg-dark">
+          <a class="navbar-brand" href="#"><img src="./assets/img/logo.png" class="img-fluid my-3" alt="logo"></a>
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon bg-white"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link text-white" href="#">Acerca de mi</a>
+              <a class="nav-link text-white" href="#">Trabajos</a>
+              <a class="nav-link text-white" aria-disabled="true">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <hero-section>
+        <div class="p-5 text-center bg-image rounded-3" style="
+    background-image: url('./assets/img/bg-hero.jpg');
+    height: 400px;
+  ">
+    <div class="d-flex justify-content-center align-items-center h-100">
+      <div class="text-white ms-auto">
+        <h1 class="mb-3 o">Comidas del fin del mundo</h1>
+        <p class="ms-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Eligendi exercitationem numquam id delectus aperiam assumenda,<br> nostrum veritatis laborum cumque! Magni ullam delectus<br> aperiam laboriosam consectetur, architecto minus dolores nesciunt quae!</p>
+        <a class="btn btn-outline-info text-white " href="#!" role="button">Trabajos</a>
+        <a class="btn btn-outline-info btn-info text-white" href="#!" role="button">Contacto</a>
+
+
+    </div>
+  </div>
+</div>
+      </hero-section>
+      <acerca-de-mi class="d-flex-column">
+        <h2 class="text-center">Acerca de mi</h2>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Doloribus recusandae at, voluptatibus, quo harum impedit,<br> 
+             vel similique doloremque veritatis possimus magnam officiis
+              cumque autem nesciunt deleniti a eaque cum laudantium!</p>
+        <div class="container text-center">
+        <div class="row align-items-start">
+        <div class="col-4 col-xs-12"><i class="fa-solid fa-camera "></i><h5>Fotografa de comida</h5><p>Lorem ipsum, dolor sit amet <br>consectetur adipisicing elit.</p></div>
+        <div class="col-4 col-xs-12" ><i class="fa-solid fa-bullhorn"></i><h5>Critica culinaria</h5><p>Lorem ipsum, dolor sit amet <br>consectetur adipisicing elit.</p></div>
+        <div class="col-4 col-xs-12" ><i class="fa-regular fa-map"></i><h5>Bloggera de viajes</h5><p>Lorem ipsum, dolor sit amet <br>consectetur adipisicing elit.</p></div>
+        </div>
+       </div>
+
+      </acerca-de-mi>
+      <portafolio class="containe-fluid d-flex-column">
+        <h2 class="text-center bg-info my-0">Mis trabajos</h2>
+        <div class="d-flex justify-content-center bg-info my-0">
+        <div class="card mx-3 my-3" style="width: 18rem;">
+            <img src="./assets/img/card-1.jpg" class="card-img-top" alt="plato asado">
+            <div class="card-body">
+              <h5 class="card-title">Asado en la patagonia</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-ligth text-info btn-outline-info">Ver mas</a>
+            </div>
+          </div>
+          <div class="card mx-3 my-3" style="width: 18rem;">
+            <img src="./assets/img/card-2.jpg" class="card-img-top" alt="plato de papas">
+            <div class="card-body">
+              <h5 class="card-title">Papas del fin del mundo</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-ligth text-info btn-outline-info">Ver mas</a>
+            </div>
+          </div>
+          <div class="card mx-3 my-3" style="width: 18rem;">
+            <img src="./assets/img/card-3.jpg" class="card-img-top" alt="plato salmon">
+            <div class="card-body">
+              <h5 class="card-title">Salmones de Alaska</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-ligth text-info btn-outline-info">Ver mas</a>
+            </div>
+          </div>
+        </div>
+
+      </portafolio>
+      <contactame>
+        <h2 class="text-center">Contactame</h2>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nobis molestiae numquam perferendis beatae nulla placeat,<br>est laborum iure incidunt alias porro consectetur iusto facere error. Itaque debitis facere illum!</p>
+        <div class="mb-3 mx-5">
+            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="nombre">
+          </div>
+          <div class="mb-3 mx-5">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3 mx-5">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="escribe aqui tu mensaje"></textarea>
+          </div>
+
+      </contactame>
+      <footer>
+        <p class="text-center bg-dark text-white">Olivia Ros 2019. Todos los derechos reservados.</p>
+
+      </footer>
+      <script src="https://kit.fontawesome.com/d058062795.js" crossorigin="anonymous"></script>   
 </body>
 </html>
